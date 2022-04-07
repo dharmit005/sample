@@ -1,4 +1,5 @@
 import React from "react";
+import {View} from "react-native";
 const TodaysDate = () => 
-  <div>{`Today's date is ${Date()}`}</div>;
+  <View>{`Today's date is ${Date()}`}</View>;
 export default TodaysDate;
