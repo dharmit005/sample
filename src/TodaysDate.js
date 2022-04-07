@@ -1,3 +1,4 @@
 import React from "react";
-const TodaysDate = () => <View>{`Today's date is ${Date()}`}</View>;
+const TodaysDate = () => 
+  <div>{`Today's date is ${Date()}`}</div>;
 export default TodaysDate;
